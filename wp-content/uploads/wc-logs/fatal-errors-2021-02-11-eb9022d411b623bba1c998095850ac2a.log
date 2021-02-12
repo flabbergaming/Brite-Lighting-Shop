@@ -1,0 +1,229 @@
+2021-02-11T07:00:11+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\britetest\wp-admin\includes\class-bulk-upgrader-skin.php:152
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-admin\includes\class-bulk-upgrader-skin.php(152): sprintf('%1$s installed ...', 'Woocommerce')
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\inc\plugins\tgm-plugin-activation\class-tgm-plugin-activation.php(3712): Bulk_Upgrader_Skin->after('Woocommerce')
+#2 C:\xampp\htdocs\britetest\wp-admin\includes\class-wp-upgrader.php(813): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\britetest\wp-content\themes\porto\inc\plugins\tgm-plugin-activation\class-tgm-plugin-activation.php(3328): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\britetest\wp-content\themes\porto\inc\plugins\tgm-plugin-activation\class-tgm-plugin-activation.php(3441): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\britetest\wp-content\themes\porto\inc\plugins\tgm-plugin-activation\class-tgm-plugin-activation.php(3047): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\britetest\wp-content\themes\porto\inc\plugins\tgm-plugin-activation\class-tgm-plugin-activation.php(773): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\britetest\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\britetest\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+
+2021-02-11T07:03:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\britetest\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-02-11T07:58:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\britetest\wp-includes\formatting.php on line 1585
+
+2021-02-11T08:06:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\britetest\wp-includes\wp-db.php on line 2056
+
+2021-02-11T09:52:45+00:00 CRITICAL Uncaught ValueError: strrpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in C:\xampp\htdocs\britetest\wp-content\plugins\revslider\includes\functions.class.php:387
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\revslider\includes\functions.class.php(387): strrpos('', '.', -1)
+#1 C:\xampp\htdocs\britetest\wp-content\plugins\revslider\includes\slide.class.php(2344): RevSliderFunctions->check_valid_image(false)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\revslider\includes\slider.class.php(2278): RevSliderSlide->get_overview_image_attributes('gallery')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\revslider\admin\includes\functions-admin.class.php(209): RevSliderSlider->get_overview_data(Object(RevSliderSlider), Array)
+#4 C:\xampp\htdocs\britetest\wp-content\plugins\revslider\admin\includes\functions-admin.class.php(126): RevSliderFunctionsAdmin->get_slider_overview()
+#5 C:\xampp\htdocs\britetest\wp-content\plugins\revslider\admin\views\header.php(11): RevSliderFunctionsAdmin->get_short_library()
+#6 C:\xampp\htdocs\britetest\wp-content\plugins\revslider\admin\revslider-admin.class.php(2207): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): RevSliderAdmin->display_admin_page('')
+#8 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\britetest\wp-admin\admin.php(259): do_action('toplevel_page_r...')
+#11 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\revslider\includes\functions.class.php on line 387
+
+2021-02-11T12:15:50+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:16:01+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:16:53+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:17:28+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:18:13+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:20:01+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:20:19+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:22:04+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:23:23+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
+2021-02-11T12:31:46+00:00 CRITICAL Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, array given in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php:1047
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php(1047): abs(Array)
+#1 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\single-product\tabs\tabs.php(54): dokan_get_more_products_from_seller('1', Array)
+#2 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1540): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\britetest\wp-content\themes\porto\woocommerce\content-single-product.php(177): do_action('woocommerce_aft...')
+#8 C:\xampp\htdocs\britetest\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#10 C:\xampp\htdocs\britetest\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#11 C:\xampp\htdocs\britetest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\britetest\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\britetest\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\dokan-lite\includes\wc-functions.php on line 1047
+
