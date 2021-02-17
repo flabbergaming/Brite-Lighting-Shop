@@ -8,3 +8,20 @@
 
 2021-02-12T08:54:10+00:00 CRITICAL Unmatched ')' in C:\xampp\htdocs\britetest\wp-content\themes\porto\footer.php on line 180
 
+2021-02-12T14:38:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\classes\class-smart-manager-product.php:540
+Stack trace:
+#0 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): Smart_Manager_Product->sm_product_query_order_by('wp_posts.post_d...', Object(WP_Query))
+#1 C:\xampp\htdocs\britetest\wp-includes\plugin.php(255): WP_Hook->apply_filters('wp_posts.post_d...', Array)
+#2 C:\xampp\htdocs\britetest\wp-includes\class-wp-query.php(2730): apply_filters_ref_array('posts_orderby', Array)
+#3 C:\xampp\htdocs\britetest\wp-includes\class-wp-query.php(3448): WP_Query->get_posts()
+#4 C:\xampp\htdocs\britetest\wp-includes\class-wp-query.php(3559): WP_Query->query(Array)
+#5 C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\classes\class-smart-manager-base.php(2047): WP_Query->__construct(Array)
+#6 C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\classes\class-smart-manager-pro-base.php(827): Smart_Manager_Base->get_data_model()
+#7 C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\classes\class-smart-manager-controller.php(178): Smart_Manager_Pro_Base->get_export_csv()
+#8 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(287): Smart_Manager_Controller->request_handler('')
+#9 C:\xampp\htdocs\britetest\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\britetest\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\britetest\wp-admin\admin-ajax.php(184): do_action('wp_ajax_sm_beta...')
+#12 {main}
+  thrown in C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\classes\class-smart-manager-product.php on line 540
+

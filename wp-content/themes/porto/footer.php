@@ -182,6 +182,12 @@ if (is_account_page()){
 	echo "<script>addClass()</script>";
 }
 
+if (is_product_tag()){
+
+	echo "<script>addClass()</script>";
+}
+
+
 
 if ( ! isset( $porto_footer_escaped ) ) {
 	wp_footer();

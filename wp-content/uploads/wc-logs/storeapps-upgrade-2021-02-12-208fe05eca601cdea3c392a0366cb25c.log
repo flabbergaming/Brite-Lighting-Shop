@@ -5,3 +5,10 @@
 2021-02-12T05:32:07+00:00 ERROR Response code, message mismatch. Response code: 401, Response message: Unauthorized. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1859
 2021-02-12T05:32:07+00:00 DEBUG Saving StoreApps data. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1971
 2021-02-12T05:32:08+00:00 DEBUG Saved StoreApps data. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1974
+2021-02-12T12:05:14+00:00 DEBUG Requesting StoreApps data. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1811
+2021-02-12T12:05:14+00:00 DEBUG Saving StoreApps data. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1971
+2021-02-12T12:05:14+00:00 DEBUG Saved StoreApps data. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1974
+2021-02-12T12:05:18+00:00 DEBUG Received response from http://localhost/britetest/wp-admin/theme-editor.php. Should contain StoreApps data.C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1839
+2021-02-12T12:05:18+00:00 ERROR Response code, message mismatch. Response code: 401, Response message: Unauthorized. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1859
+2021-02-12T12:05:18+00:00 DEBUG Saving StoreApps data. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1971
+2021-02-12T12:05:18+00:00 DEBUG Saved StoreApps data. C:\xampp\htdocs\britetest\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-7.php 1974
